@@ -1,5 +1,5 @@
 const {model, Schema} = require ('mongoose')
 
-const ToDoItems =  require('./Todo.js') (model, Schema)
+const ToDo =  require('./Todo.js') (model, Schema)
 
-module.exports = { ToDoItems } 
+module.exports = { ToDo } 
