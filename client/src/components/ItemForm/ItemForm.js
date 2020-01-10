@@ -12,7 +12,7 @@ const ItemForm = _ => {
                 ({ item, itemFormSubmit, itemInputChange }) => (
                     <form>
                     <div className="form-group">
-                        <label htmlFor="item">Item</label>
+                        <label htmlFor="item">Add an item:</label>
                         {/* using onChange and value */}
                         <input type="text" className="form-control" id="item" placeholder="Item" onChange={itemInputChange} value={item}/>
                     </div>
