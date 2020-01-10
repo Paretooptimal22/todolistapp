@@ -9,7 +9,7 @@ app.use(express.json())
 
 require('./routes')(app)
 
-app.listen(process.env.PORT || 3001)
+// app.listen(process.env.PORT || 3001)
 
-require('mongoose').connection.once('open', () => app.listen(3000)) 
+require('mongoose').connection.once('open', () => app.listen(process.env.PORT || 3001)) 
 

@@ -3,5 +3,5 @@ module.exports = (model, Schema) => {
         item: String,
         isDone: Boolean
     })
-return Model( 'ToDoItems', ToDoItems)
+return model( 'ToDoItems', ToDoItems)
 }
