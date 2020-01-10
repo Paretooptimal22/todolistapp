@@ -1,4 +1,4 @@
-module.exports = require ('mongoose').connect ( 'mongodb://localhost/todolist',{
+module.exports = require ('mongoose').connect('mongodb://localhost/todolistdb',{
     useCreateIndex: true,
     useFindAndModify: true,
     useNewUrlParser: true,

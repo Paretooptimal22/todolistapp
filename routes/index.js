@@ -1,4 +1,4 @@
 module.exports = app => {
   require('./toDoRoutes.js')(app)
-    require('./Todo.js')(app)
+    require('./todo.js')(app)
 }

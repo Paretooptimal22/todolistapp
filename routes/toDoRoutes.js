@@ -1,4 +1,4 @@
-const { ToDo } = require('../models')
+const {ToDos} = require('../models')
 
 module.exports = app => {
 
@@ -11,11 +11,11 @@ module.exports = app => {
   // })
 
   //Post to do item
-    app.post('/todos', (req,res) => {
-      ToDo.create(req.body)
-      .then(() => res.sendStatus(200))
-      .catch(e => console.error(e))
-    })
+    // app.post('/todos', (req,res) => {
+    //   ToDos.create(req.body)
+    //   .then(() => res.sendStatus(200))
+    //   .catch(e => console.error(e))
+    // })
   //Update to do item
 
   //Delete to do item
