@@ -3,6 +3,7 @@ import FormContext from '../../utils/FormContext'
 import ItemForm from '../../components/ItemForm'
 import ItemList from '../../components/ItemList'
 import Nav from '../../components/Nav'
+import Footer from '../../components/Footer'
 
 class List extends Component {
 
@@ -33,6 +34,7 @@ class List extends Component {
             <br />
             <ItemList />            
         </div>
+        <Footer />
 
       </FormContext.Provider>
     )
