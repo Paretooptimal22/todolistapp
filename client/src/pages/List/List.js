@@ -27,6 +27,7 @@ class List extends Component {
     return (
       <FormContext.Provider value={this.state}>
         <Nav />  
+        <br/><br/>
         <div className="container">
             <ItemForm />
             <br />

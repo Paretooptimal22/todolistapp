@@ -21,6 +21,7 @@ const ItemList = _ => {
             {
                 ({ item, items }) => (
                     <>
+                    <h4>Things to do:</h4>
                         <ul className="list-group">
                             {
                                 items.map((item, i) => <li className="list-group-item" key={i}>{item}</li>)
