@@ -1,7 +1,10 @@
 module.exports = (model, Schema) => {
     const ToDoItems = new Schema ({
         item: String,
-        isDone: Boolean
+        isDone: {
+            type: Boolean,
+            default: false
+        }
     })
 return model( 'ToDoItems', ToDoItems)
 }
