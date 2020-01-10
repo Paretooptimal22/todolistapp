@@ -7,4 +7,6 @@ app.use(express.static(join(__dirname, 'client', 'build')))
 app.use(express.urlencoded({ extended: true}))
 app.use(express.json())
 
+require('./routes')(app)
+
 app.listen(process.env.PORT || 3001)
