@@ -21,5 +21,13 @@
     "express": "^4.17.1",
     "if-env": "^1.0.4",
     "mongoose": "^5.8.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paretooptimal22/todolistapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Paretooptimal22/todolistapp/issues"
+  },
+  "homepage": "https://github.com/Paretooptimal22/todolistapp#readme"
 }
