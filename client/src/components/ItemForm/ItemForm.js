@@ -43,3 +43,15 @@ export default ItemForm
     //     </FormContext.Consumer>          
 
     // ) 
+
+// ------------------------------------------------------
+// using useEffect in hook components
+// ^^happens when component mounts on the page
+// const App = () = {
+
+//     useEffect(() => {
+            // ***axios request will run on page load***
+            // .then
+            // .catch
+//     }, [])
+// }
